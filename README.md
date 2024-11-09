@@ -1,5 +1,6 @@
 # cse210-ww-student-template
 Jalielle Curtis - WDD231
+Programming with classes
 
 This repository contains the starter code for many different projects. They are arranged as follows:
 
