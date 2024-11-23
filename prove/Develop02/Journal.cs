@@ -16,6 +16,7 @@ public class Journal {
         }
     }
 
+    //creative addition to program requirements
     public void DisplayKeyEntries() {
         foreach (Entry listEntry in _keywordEntries) {
             listEntry.DisplayEntry();
@@ -46,6 +47,7 @@ public class Journal {
         }
     }
 
+    //creative addition to program requirements
     public void SearchForKeyword(string word) {
         foreach (Entry journalEntry in _entries) {
             if(journalEntry._entryText.Contains(word)) {

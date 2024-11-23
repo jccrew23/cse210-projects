@@ -1,3 +1,7 @@
+//Creativity: I added another function that searches for a word and displays
+//the journal entries that contain that word. I decided to do this because 
+//many people might not journal because looking back at journal entries for 
+//something specific might get annoyinlg when you don't know the date. 
 using System;
 using System.ComponentModel.Design;
 using System.IO.Enumeration;
@@ -73,6 +77,7 @@ class Program
             }
 
             //if 5
+            //creative addition to the program requirements
             else if (choice == "5") {
                 Console.WriteLine("What word would you like to search for? ");
                 string keyword = Console.ReadLine();
