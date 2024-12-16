@@ -54,6 +54,18 @@ public class Activities {
             Console.Write("\b \b");
         }
     } 
+    public void ShowGrowingLine(int seconds) {
+        string line = "";
+        DateTime startTime = DateTime.Now;
+        DateTime endTime = startTime.AddSeconds(seconds);
+        
+        while (DateTime.Now < endTime){
+             line += "-";
+            Console.Write(line);
+            Thread.Sleep(1000);
+            Console.Write("\b \b");
+        }
+    }
     public string GetActName() {
         return _name;
     }
